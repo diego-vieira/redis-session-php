@@ -1,8 +1,6 @@
 <?php
-if(!class_exists('\Predis\Client')){
-  require_once('modules/predis/lib/Predis/Autoloader.php');
-  Predis\Autoloader::register();
-}
+
+namespace RedisSession;
 
 function json_decode_array($d){
   return json_decode($d, true);
@@ -140,5 +138,3 @@ class RedisSession{
 
 // the following prevents unexpected effects when using objects as save handlers
 register_shutdown_function('session_write_close');
-
-?>
