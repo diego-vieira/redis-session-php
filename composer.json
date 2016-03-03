@@ -1,0 +1,14 @@
+{
+    "name": "thedeveloper/redis-session-php",
+    "description": "Redis-backed PHP session handler",
+    "require": {
+        "predis/predis": "^1.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Geoff Wagstaff",
+            "email": "geoff@gosquared.com"
+        }
+    ]
+}
