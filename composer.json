@@ -3,7 +3,8 @@
     "type": "library",
     "description": "Redis-backed PHP session handler",
     "require": {
-        "predis/predis": "^1.0"
+        "predis/predis": "^1.0",
+        "php": ">=5.3.0"
     },
     "license": "MIT",
     "authors": [
@@ -12,9 +13,6 @@
             "email": "geoff@gosquared.com"
         }
     ],
-    "require": {
-        "php": ">=5.3.0"
-    },
     "autoload": {
         "psr-0": { "RedisSession": "." }
     }
